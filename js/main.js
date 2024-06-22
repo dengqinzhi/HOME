@@ -50,7 +50,7 @@ $(document).ready(function () {
 	 * 改用 JsonBird：https://bird.ioliu.cn/
 	 * 
 	 */
-	var url = 'https://qinzhi.cc/wallpaper';
+	var url = 'http://bing.com/HPImageArchive.aspx?format=js&idx=16&n=1';
 	var imgUrls = JSON.parse(sessionStorage.getItem("imgUrls"));
 	var index = sessionStorage.getItem("index");
 	var $panel = $('#panel');
